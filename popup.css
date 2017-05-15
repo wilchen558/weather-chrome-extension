@@ -1,0 +1,95 @@
+/*
+ * RESET 
+ */
+
+html, body, div, a, form, header, footer, h1, p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    line-height: 1.4;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+	font-size: 1.4rem;
+	color: rgb(30,30,30);
+    width: 200px;
+}
+
+header {
+    background-color: #576b79;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+footer {
+    padding-bottom: 10px; 
+}
+
+p {
+    color: white;
+}
+
+
+a {
+	color: #038EEF;
+}
+
+a:focus {
+    outline: none;
+}
+
+div {
+  display: inline-block;
+}
+
+.data {
+  margin: 10px 10px 10px 10px;
+  font-weight: bold;
+}
+
+.current {
+  font-size: 36px;
+}
+
+.hours {
+  width: 32%;
+}
+.hours div {
+  display: block;
+}
+
+.row {
+  width: 100%;
+}
+
+.icon {
+    text-align: center;
+}
+
+.label {
+  text-align: left;
+  width: 130px;
+}
+
+.reading {
+  text-align: left;
+}
+
+.footer {
+    text-align: center;
+}

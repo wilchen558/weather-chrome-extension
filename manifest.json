@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Simple Weather",
+  "description": "A simple weather extension the use icons to display weather",
+  "version": "1.0",
+  "background": {
+    "persistent": false,
+    "page": "background.html"
+  },
+  "browser_action": {
+    "default_icon": "assets/icons/icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "alarms",
+    "geolocation",
+    "notifications",
+    "storage",
+    "https://api.darksky.net/"
+  ]
+}
